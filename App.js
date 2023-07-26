@@ -20,7 +20,10 @@ const App =()=>{
   }
   const onReset =()=>
   {
-
+    setHour(0);
+    setMin(0);
+    setSecond(0);
+    setMSecond(0);
   }
 
   useEffect(()=>{
